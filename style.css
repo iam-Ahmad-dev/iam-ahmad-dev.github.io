@@ -11,3 +11,23 @@ header {
   color: white;
   padding: 3rem 1rem;
 }
+
+section {
+  padding: 2rem 1rem;
+}
+
+.project {
+  background: white;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #343a40;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
