@@ -1,33 +1,128 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  background: #f8f9fa;
-  color: #333;
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(to bottom right, #007bff, #00bcd4);
+  color: #fff;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  margin-bottom: 1rem;
+}
+
+.hero h2 span {
+  color: #ffd700;
+}
+
+/* Sections */
+section {
+  padding: 3rem 1rem;
   text-align: center;
 }
 
-header {
+#skills .skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.skill {
   background: #007bff;
-  color: white;
-  padding: 3rem 1rem;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 25px;
+  font-size: 1rem;
 }
 
-section {
-  padding: 2rem 1rem;
-}
-
-.project {
-  background: white;
-  padding: 1rem;
-  margin: 1rem auto;
+/* Projects */
+.project-card {
+  background: #fff;
   max-width: 500px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 1rem auto;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.project-card a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* Contact */
+.btn {
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+/* Footer */
 footer {
-  background: #343a40;
-  color: white;
+  background: #222;
+  color: #fff;
   padding: 1rem;
-  margin-top: 2rem;
+  text-align: center;
 }
