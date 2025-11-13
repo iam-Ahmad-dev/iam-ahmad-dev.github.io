@@ -94,13 +94,15 @@ section {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.cert-card1 a {
+.cert-card1 
+  a {
   color: #007bff;
   text-decoration: none;
   font-weight: bold;
 }
 
-.cert-card1 a:hover {
+.cert-card1 
+  a:hover {
   text-decoration: underline;
 }
 
