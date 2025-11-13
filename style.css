@@ -85,7 +85,7 @@ section {
 }
 
 /* Projects */
-.project-card {
+.cert-card {
   background: #fff;
   max-width: 500px;
   margin: 1rem auto;
@@ -94,13 +94,13 @@ section {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.project-card a {
+.cert-card a {
   color: #007bff;
   text-decoration: none;
   font-weight: bold;
 }
 
-.project-card a:hover {
+.cert-card a:hover {
   text-decoration: underline;
 }
 
