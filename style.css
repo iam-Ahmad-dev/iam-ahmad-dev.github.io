@@ -85,9 +85,9 @@ section {
 }
 
 /* Certificates */
-.cert-card {
+.cert-card1 {
   background: #fff;
-  max-width: 950px;
+  max-width: 920px;
   margin: 1rem auto;
   padding: 1.5rem;
   border-radius: 10px;
@@ -96,7 +96,7 @@ section {
 
 .cert-card2 {
   background: #fff;
-  max-width: 950px;
+  max-width: 920px;
   margin: 1rem auto;
   padding: 1.5rem;
   border-radius: 10px;
