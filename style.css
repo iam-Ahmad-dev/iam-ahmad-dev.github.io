@@ -103,7 +103,8 @@ section {
 /* Footer */
 footer {
   background: #222;
-  color: #fff;
+  color: #fff;   
+  background: linear-gradient(to bottom right, #007bff, #00bcd4);
   padding: 1rem;
   text-align: center;
 }
