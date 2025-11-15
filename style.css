@@ -95,19 +95,10 @@ section {
 }
 
 /* Contact */
-.btn {
-  display: inline-block;
-  background: #007bff;
-  color: #fff;
-  padding: 0.8rem 1.5rem;
-  border-radius: 30px;
-  text-decoration: none;
+.contact-item {
   margin-top: 1rem;
 }
 
-.btn:hover {
-  background: #0056b3;
-}
 
 /* Footer */
 footer {
